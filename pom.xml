@@ -3,18 +3,21 @@
   <groupId>com.Nepian.Teleports</groupId>
   <artifactId>Teleports</artifactId>
   <version>0.7.0</version>
-  
+
   <repositories>
     <repository>
       <id>spigotmc-repo</id>
+      <!--
       <url>https://hub.spigotmc.org/nexus/content/groups/public</url>
+      -->
+      <url>http://maven.elmakers.com/repository</url>
     </repository>
   </repositories>
 
   <dependencies>
     <dependency>
       <groupId>org.bukkit</groupId>
-      <artifactId>bukkit</artifactId>
+      <artifactId>craftbukkit</artifactId>
       <version>1.7.10-R0.1-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
@@ -40,5 +43,5 @@
       </resource>
     </resources>
   </build>
-  
+
 </project>
